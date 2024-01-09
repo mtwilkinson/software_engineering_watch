@@ -1,0 +1,32 @@
+.watch {
+    /* Align and justify content in the center of the div */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    /* set size and round the corners */
+    border-radius: 24px;
+    width: 300px;
+    height: 200px;
+    /* set the background color and outline */
+    background-color: black;
+    outline: #4d4c50 solid 16px;
+}
+
+.time {
+    /* set the font size and color */
+    font-size: 32px;
+    color: white;
+}
+
+.watch_div {
+    /* Align in the center of the div */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 32px;
+
+    /* set the background color */
+    background-color: #6514b9;
+}
