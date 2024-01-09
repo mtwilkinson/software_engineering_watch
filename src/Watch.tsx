@@ -2,13 +2,16 @@ import React from 'react';
 import './Watch.css';
 import {WatchComponent} from "./types";
 
+/*
+    This component includes the purple div and everything in it.
+*/
 function Watch({watchTime}: WatchComponent) {
 
     return (
         /*
             A div is a container that holds components and can be used to arrange them. h1 and h2
             are headers that show some text. Each of these components have a class name, so I can
-            style them in App.css
+            style them in Watch.css
          */
         <div className={"watch_div"}>
             <h1>Current Time</h1>

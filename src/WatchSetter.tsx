@@ -2,11 +2,21 @@ import React, {ChangeEvent, useState} from 'react';
 import './WatchSetter.css';
 import {WatchSetterComponent} from "./types";
 
+/*
+    This component contains the blue div and everything inside it
+*/
+
 function WatchSetter({setTime}: WatchSetterComponent) {
+    /*
+        These variables hold the hour minute and second values
+     */
     const [hour, setHour] = useState("");
     const [minute, setMinute] = useState("");
     const [second, setSecond] = useState("");
 
+    /*
+        These functions update the corresponding variable when the corresponding input is changed.
+     */
     function handleHourInput(e: ChangeEvent<HTMLInputElement>) {
         setHour(e.target.value);
     }
@@ -19,6 +29,9 @@ function WatchSetter({setTime}: WatchSetterComponent) {
         setSecond(e.target.value);
     }
 
+    /*
+        this function calls setTime() when the button is clicked
+     */
     function handleButton() {
         setTime({hour, minute, second});
     }

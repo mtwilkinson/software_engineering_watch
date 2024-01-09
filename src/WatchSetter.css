@@ -1,21 +1,22 @@
 .fields_div {
-    height: 100px;
-    background-color: #011c8c;
-    padding: 16px;
-    display: flex;
+    height: 100px; /* set height */
+    background-color: #011c8c; /* set background color */
+    padding: 16px; /* add padding */
+    display: flex; /* set display. flex causes the div to grow to contain the items inside */
 }
 
 .input_div {
+    /* set background and add margin */
     background-color: #513af5;
     margin: 0 8px 0 8px;
 }
 
 .watch_setter_div {
-    /* Align in the center of the div */
+
     display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: space-around;
+    flex-direction: column; /* organize content in a column not row. */
+    align-items: end; /* Align items to the right of the div */
+    justify-content: space-around; /* put space around the content of the div */
 
     padding: 32px;
     height: 450px;
@@ -25,11 +26,13 @@
 }
 
 input {
+    /* set width and margin of the input fields */
     width: 50px;
     margin-right: 16px;
     margin-left: 16px;
 }
 
 p {
+    /* eliminate margin on paragraph text */
     margin: 0;
 }

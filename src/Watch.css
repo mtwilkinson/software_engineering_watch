@@ -24,7 +24,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
+    /* Add padding around the div */
     padding: 32px;
 
     /* set the background color */
